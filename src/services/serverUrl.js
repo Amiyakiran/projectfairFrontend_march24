@@ -1,0 +1,1 @@
+export const serverUrl = 'https://projectfairbackend-march24.onrender.com'
