@@ -4,7 +4,7 @@ import { createContext } from 'react'
 
 export const addResponseContext = createContext({})
 export const editResponseContext = createContext({})
-export const isLoginAuthContext = createContext(false)
+export const isLoginAuthContext = createContext(true)
 
 
 function Contextshare({children}) {
@@ -12,7 +12,7 @@ function Contextshare({children}) {
 
     const [addResponse , setAddResponse] = useState({})
     const [editResponse , setEditResponse] = useState({})
-    const [isLoginStatus , setIsLoginStatus] = useState(false)
+    const [isLoginStatus , setIsLoginStatus] = useState(true)
 
     
   return (
