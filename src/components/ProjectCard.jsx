@@ -21,7 +21,7 @@ function ProjectCard({project}) {
   return (
     <div>
       <Card style={{ width: '100%' }} className='shadow border-0 rounded-0' onClick={handleShow}>
-        <Card.Img variant="top" src={`${serverUrl}/uploads/${project?.projectImage}`} className='rounded-0' />
+        <Card.Img variant="top" src={`${serverUrl}/uploads/${project?.projectImage}`} className='rounded-0' style={{height:'300px'}} />
         <Card.Body>
           <Card.Title className='text-center'>{project?.title}</Card.Title>
         </Card.Body>
